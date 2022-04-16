@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Petr Pazhytnykh</title>
+  </head>
+  <body>
+    <div class="print:max-w-full max-w-[800px] mx-auto">
+      <header class="p-4 bg-primary flex">
+        <div class="max-w-[300px] w-[100px]">
+          <img src="./images/avatar.jpg" width="300" alt="Petr Pazhitnykh" class="rounded-full" />
+        </div>
+        <div class="px-4 text-white">
+          <h1>Petr Pazhitnykh</h1>
+          <p>FRONTEND DEVELOPER</p>
+          <span>POLAND, WARSAW</span>
+        </div>
+      </header>
+      <article>
+        <section
+          aria-label="contacts"
+          class="p-4 border-b w-full flex gap-x-8 gap-y-2 flex-wrap whitespace-nowrap"
+        >
+          <a class="text text-black no-underline" href="mailto:pazhitnykhpetr@gmail.com"
+            ><i class="fas fa-envelope text-primary"></i> pazhitnykhpetr@gmail.com</a
+          >
+          <a class="text text-black no-underline" href="https://t.me/pegeFrog"
+            ><i class="fab fa-telegram text-primary"></i> @pegeFrog</a
+          >
+          <a class="text text-black no-underline" href="tel:+48794677015"
+            ><i class="fas fa-phone-alt text-primary"></i> +48 794 677 015</a
+          >
+        </section>
+        <div class="flex w-full flex-col md:flex-row print:flex-row">
+          <div>
+            <section class="p-4 border-b">
+              <h2>Employment History</h2>
+              <p class="flex flex-col mb-4">
+                <span>Realt.by, Frontend Developer</span>
+                <span class="text-xs text-gray-400">September, 2021 - present</span>
+              </p>
+              <p class="flex flex-col mb-4 gap-y-2">
+                <span class="font-bold"
+                  >Realt.by the largest real estate classifier in Belarus.</span
+                >
+                <span>
+                  In <a href="https://realt.by/">Realt.by</a>, I was engaged in layout of pages on
+                  <a href="https://nextjs.org/">Next.js</a>,
+                  <a href="https://www.typescriptlang.org/">TypeScript</a> and
+                  <a href="https://tailwindcss.com/">Tailwind</a>, connection of data from the
+                  backend via <a href="https://graphql.org/">GraphQl</a>, made UI components using
+                  <a href="https://marmelab.com/react-admin/">React-admin</a>
+                  and <a href="https://mui.com/">MUI</a>, writing
+                  <a href="https://jestjs.io/">Jest</a> tests using the
+                  <a href="https://testing-library.com/docs/react-testing-library/intro/">
+                    React Testing Library</a
+                  >
+                  , bug fixes.
+                </span>
+                <span class="font-semibold">
+                  I also made an
+                  <a href="https://realtby.github.io/icons/?path=/story/all-icons--all-icons">
+                    icon library</a
+                  >
+                  on <a href="https://storybook.js.org/">Storybook</a>.
+                </span>
+              </p>
+            </section>
+            <section class="p-4 border-b">
+              <h2>Education</h2>
+              <div class="py-4 border-b">
+                <p class="flex flex-col mb-4">
+                  <span>Frontend Developer, Rolling Scopes School</span>
+                  <span class="text-xs text-gray-400">Feburary, 2021 - September, 2021</span>
+                </p>
+                <p>
+                  I completed Epam's <a href="https://rs.school/">RS School</a> JavaScript courses,
+                  where I learned how to create HTML / JS / React applications.
+                </p>
+              </div>
+              <div class="py-4 border-b">
+                <p class="flex flex-col">
+                  <span>Electronic Engineer, Belarusian National Technical University</span>
+                  <span class="text-xs text-gray-400">September, 2017 - September, 2021</span>
+                </p>
+              </div>
+              <div class="pt-4">
+                <p class="flex flex-col">
+                  <span>Physics and Mathematics, Lyceum BNTU</span>
+                  <span class="text-xs text-gray-400">September, 2015 - September, 2017</span>
+                </p>
+              </div>
+            </section>
+            <section class="p-4">
+              <h2>My own projects</h2>
+              <span>Projects I did during my studies at RS School</span>
+              <div class="py-4">
+                <div class="flex flex-col mb-3">
+                  <p>
+                    Racing cars with different characteristics, working with a back-end REST API.
+                  </p>
+                  <a
+                    href="https://rolling-scopes-school.github.io/bantamer-JSFE2021Q1/async-race/"
+                    class="print:ml-4"
+                  >
+                    <span class="print:hidden">view</span>
+                    <span class="hidden print:block">
+                      https://rolling-scopes-school.github.io/bantamer-JSFE2021Q1/async-race/
+                    </span>
+                  </a>
+                </div>
+                <div class="flex flex-col mb-3">
+                  <p>
+                    Application for the game MATCH MATCH. You are given a certain number of cards,
+                    among which you need to find matches. To create the application, I used
+                    technologies such as javascript, typescript, webpack, lit-html, css, prettier
+                    eslint.
+                  </p>
+                  <a
+                    href="https://rolling-scopes-school.github.io/bantamer-JSFE2021Q1/match-match-game/"
+                    class="print:ml-4"
+                  >
+                    <span class="print:hidden">view</span>
+                    <span class="hidden print:block">
+                      https://rolling-scopes-school.github.io/bantamer-JSFE2021Q1/match-match-game/
+                    </span>
+                  </a>
+                </div>
+                <div class="flex flex-col mb-3">
+                  <p>
+                    Virtual Piano App: Plays notes when certain keys are pressed. To create an
+                    application, I used JavaScript, Audio-API
+                  </p>
+                  <a
+                    href="https://rolling-scopes-school.github.io/bantamer-JSFE2021Q1/virtual-piano/"
+                    class="print:ml-4"
+                  >
+                    <span class="print:hidden">view</span>
+                    <span class="hidden print:block"
+                      >https://rolling-scopes-school.github.io/bantamer-JSFE2021Q1/virtual-piano/</span
+                    >
+                  </a>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="border-l p-4 flex md:flex-col print:flex-col gap-2">
+            <section class="flex flex-col">
+              <h2>Details</h2>
+              <span class="text-xs text-gray-400">Date of birth</span>
+              <span class="text text-lg">07.07.2000</span>
+            </section>
+            <section>
+              <h2>Links</h2>
+              <div class="text-xl flex gap-x-2 print:hidden">
+                <a href="https://github.com/bantamer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/petr-pazhitnykh/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
+              <div class="hidden print:block">
+                <a href="https://github.com/bantamer">github.com/bantamer</a>
+                <a href="https://www.linkedin.com/in/petr-pazhitnykh/"
+                  >linkedin.com/in/petr-pazhitnykh/</a
+                >
+              </div>
+            </section>
+            <section>
+              <h2>Skills</h2>
+              <div class="flex flex-col gap-y-2">
+                <div class="flex flex-col gap-y-1">
+                  <span>HTML & CSS</span>
+                  <div class="w-full border rounded-md border-black">
+                    <div class="bg-primary w-full h-full py-1 rounded-md"></div>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-y-1">
+                  <span>React</span>
+                  <div class="w-full border rounded-md border-black">
+                    <div class="bg-primary w-[80%] h-full py-1 rounded-md rounded-r-none"></div>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-y-1">
+                  <span>TypeScript</span>
+                  <div class="w-full border rounded-md border-black">
+                    <div class="bg-primary w-[60%] rounded-r-none h-full py-1 rounded-md"></div>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-y-1">
+                  <span>JavaScript</span>
+                  <div class="w-full border rounded-md border-black">
+                    <div class="bg-primary w-[60%] rounded-r-none h-full py-1 rounded-md"></div>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-y-1">
+                  <span>Git</span>
+                  <div class="w-full border rounded-md border-black">
+                    <div class="bg-primary w-[60%] rounded-r-none h-full py-1 rounded-md"></div>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-y-1">
+                  <span>Node.js</span>
+                  <div class="w-full border rounded-md border-black">
+                    <div class="bg-primary w-[60%] rounded-r-none h-full py-1 rounded-md"></div>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-y-1">
+                  <span>React-Admin</span>
+                  <div class="w-full border rounded-md border-black">
+                    <div class="bg-primary w-[60%] rounded-r-none h-full py-1 rounded-md"></div>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-y-1">
+                  <span>Next.js</span>
+                  <div class="w-full border rounded-md border-black">
+                    <div class="bg-primary w-[40%] rounded-r-none h-full py-1 rounded-md"></div>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-y-1">
+                  <span>GraphQl</span>
+                  <div class="w-full border rounded-md border-black">
+                    <div class="bg-primary w-[40%] rounded-r-none h-full py-1 rounded-md"></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section>
+              <h2>Languages</h2>
+              <div class="flex flex-col gap-y-2">
+                <div class="flex flex-col gap-y-1">
+                  <span>Belarusian</span>
+                  <div class="w-full border rounded-md border-black">
+                    <div class="bg-primary w-full rounded-r-none h-full py-1 rounded-md"></div>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-y-1">
+                  <span>Russian</span>
+                  <div class="w-full border rounded-md border-black">
+                    <div class="bg-primary w-full rounded-r-none h-full py-1 rounded-md"></div>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-y-1">
+                  <span>English</span>
+                  <div class="w-full border rounded-md border-black">
+                    <div class="bg-primary w-[40%] rounded-r-none h-full py-1 rounded-md"></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>
