@@ -16,6 +16,7 @@
     />
     <link href="./output.css" rel="stylesheet" />
     <title>Petr Pazhytnykh</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
   </head>
   <body>
     <div class="print:max-w-full max-w-[800px] mx-auto">
@@ -61,7 +62,7 @@
                   <a href="https://nextjs.org/">Next.js</a>,
                   <a href="https://www.typescriptlang.org/">TypeScript</a> and
                   <a href="https://tailwindcss.com/">Tailwind</a>, connection of data from the
-                  backend via <a href="https://graphql.org/">GraphQl</a>, made UI components using
+                  backend via <a href="https://graphql.org/">GraphQL</a>, made UI components using
                   <a href="https://marmelab.com/react-admin/">React-admin</a>
                   and <a href="https://mui.com/">MUI</a>, writing
                   <a href="https://jestjs.io/">Jest</a> tests using the
@@ -84,7 +85,7 @@
               <div class="py-4 border-b">
                 <p class="flex flex-col mb-4">
                   <span>Frontend Developer, Rolling Scopes School</span>
-                  <span class="text-xs text-gray-400">Feburary, 2021 - September, 2021</span>
+                  <span class="text-xs text-gray-400">February, 2021 - September, 2021</span>
                 </p>
                 <p>
                   I completed Epam's <a href="https://rs.school/">RS School</a> JavaScript courses,
@@ -106,6 +107,13 @@
             </section>
             <section class="p-4">
               <h2>My own projects</h2>
+              <div class="flex flex-col mb-3">
+                <p>This is a CV in pure HTML and Tailwind</p>
+                <a href="https://bantamer.github.io/cv/" class="print:ml-4">
+                  <span class="print:hidden">CV</span>
+                  <span class="hidden print:block"> https://bantamer.github.io/cv/ </span>
+                </a>
+              </div>
               <span>Projects I did during my studies at RS School</span>
               <div class="py-4">
                 <div class="flex flex-col mb-3">
@@ -116,7 +124,7 @@
                     href="https://rolling-scopes-school.github.io/bantamer-JSFE2021Q1/async-race/"
                     class="print:ml-4"
                   >
-                    <span class="print:hidden">view</span>
+                    <span class="print:hidden">Async Race</span>
                     <span class="hidden print:block">
                       https://rolling-scopes-school.github.io/bantamer-JSFE2021Q1/async-race/
                     </span>
@@ -133,7 +141,7 @@
                     href="https://rolling-scopes-school.github.io/bantamer-JSFE2021Q1/match-match-game/"
                     class="print:ml-4"
                   >
-                    <span class="print:hidden">view</span>
+                    <span class="print:hidden">Match Match Game</span>
                     <span class="hidden print:block">
                       https://rolling-scopes-school.github.io/bantamer-JSFE2021Q1/match-match-game/
                     </span>
@@ -148,7 +156,7 @@
                     href="https://rolling-scopes-school.github.io/bantamer-JSFE2021Q1/virtual-piano/"
                     class="print:ml-4"
                   >
-                    <span class="print:hidden">view</span>
+                    <span class="print:hidden">Virtual Piano</span>
                     <span class="hidden print:block"
                       >https://rolling-scopes-school.github.io/bantamer-JSFE2021Q1/virtual-piano/</span
                     >
@@ -157,27 +165,29 @@
               </div>
             </section>
           </div>
-          <div class="border-l p-4 flex md:flex-col print:flex-col gap-2">
-            <section class="flex flex-col">
-              <h2>Details</h2>
-              <span class="text-xs text-gray-400">Date of birth</span>
-              <span class="text text-lg">07.07.2000</span>
-            </section>
-            <section>
-              <h2>Links</h2>
-              <div class="text-xl flex gap-x-2 print:hidden">
-                <a href="https://github.com/bantamer"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/petr-pazhitnykh/"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-              </div>
-              <div class="hidden print:block">
-                <a href="https://github.com/bantamer">github.com/bantamer</a>
-                <a href="https://www.linkedin.com/in/petr-pazhitnykh/"
-                  >linkedin.com/in/petr-pazhitnykh/</a
-                >
-              </div>
-            </section>
+          <div class="border-l p-4 flex flex-col gap-2 md:min-w-[250px]">
+            <div class="flex w-full md:flex-col print:flex-col md:gap-2 print:gap-2">
+              <section class="flex flex-col w-1/2 md:w-full print:w-full">
+                <h2>Details</h2>
+                <span class="text-xs text-gray-400">Date of birth</span>
+                <span class="text text-lg">07.07.2000</span>
+              </section>
+              <section class="w-1/2 md:w-full print:w-full">
+                <h2>Links</h2>
+                <div class="text-xl flex gap-x-2 print:hidden">
+                  <a href="https://github.com/bantamer"><i class="fab fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/petr-pazhitnykh/"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
+                <div class="hidden print:block">
+                  <a href="https://github.com/bantamer">github.com/bantamer</a>
+                  <a href="https://www.linkedin.com/in/petr-pazhitnykh/"
+                    >linkedin.com/in/petr-pazhitnykh/</a
+                  >
+                </div>
+              </section>
+            </div>
             <section>
               <h2>Skills</h2>
               <div class="flex flex-col gap-y-2">
@@ -230,7 +240,7 @@
                   </div>
                 </div>
                 <div class="flex flex-col gap-y-1">
-                  <span>GraphQl</span>
+                  <span>GraphQL</span>
                   <div class="w-full border rounded-md border-black">
                     <div class="bg-primary w-[40%] rounded-r-none h-full py-1 rounded-md"></div>
                   </div>
@@ -263,6 +273,12 @@
           </div>
         </div>
       </article>
+      <div class="p-4">
+        <p class="print:hidden bg-primary/50 p-4 w-full rounded-lg text-white text-center">
+          If you want to print this CV, use the <strong>print</strong> browser function. Don't
+          forget to check the <strong>background</strong> box.
+        </p>
+      </div>
     </div>
   </body>
 </html>
