@@ -1549,6 +1549,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.375rem;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1656,6 +1660,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(24 99 98 / var(--tw-bg-opacity));
+}
+
+.bg-primary\/50 {
+  background-color: rgb(24 99 98 / 0.5);
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
