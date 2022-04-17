@@ -746,6 +746,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-\[80\%\] {
   width: 80%;
 }
@@ -756,10 +760,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[40\%\] {
   width: 40%;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .max-w-\[800px\] {
